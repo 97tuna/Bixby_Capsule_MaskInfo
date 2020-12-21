@@ -1,0 +1,11 @@
+action (OpenPhone) {
+  description (전화앱 연동)
+  type(Search)
+  collect {
+    input (phone) {
+      type (phone)
+      min (Optional) max (One)
+    }
+  }
+  output (phone)
+}

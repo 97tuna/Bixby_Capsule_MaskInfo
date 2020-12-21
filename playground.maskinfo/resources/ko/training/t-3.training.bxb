@@ -1,0 +1,54 @@
+train (t-300gbgexr9628fjum46ylyri1) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 구할래")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094416847)
+}
+train (t-35bdwf86qyejui0vmzdv0fity) {
+  utterance ("[g:SearchAddress] (서울특별시 영등포구)[v:Address]에 없어?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093556799)
+}
+train (t-39i70nuabvawi94btomnwf6qr) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 재고")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584425178653)
+}
+train (t-3dku2zcl1i1i5qz4y79z3dt5y) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 좀 알려줘라")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584087690458)
+}
+train (t-3it82pm39z5p3z7n6ju5yhbji) {
+  utterance ("[g:SearchAddress] (인천광역시 미추홀구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583914511055)
+}
+train (t-3ivybgf1rbwk9stzhbpe7awpy) {
+  utterance ("[g:SearchAddress] (충청남도 아산시)[v:Address]에 마스크 없을까")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092632704)
+}
+train (t-3jtx3q716cy7y41qsqlci3j86) {
+  utterance ("[g:SearchAddress] (서울특별시 서초구)[v:Address]에는 마스크 있니")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093593495)
+}
+train (t-3jypqheh3afx8foovf90serlb) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 없냐?")
+  last-modified (1584533348264)
+}
+train (t-3l22zz6hyg8of16bo5pd8aspo) {
+  utterance ("[g:SearchAddress] (서울특별시 중랑구)[v:Address]에 있니")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093910990)
+}
+train (t-3orwc32sud59bvpdclur9wvso) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 어디서 살 수 있어")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584087634091)
+}
+train (t-3p0ils4dxaxwozkjjaha3torm) {
+  utterance ("[g:SearchAddress] (대전광역시 중구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934446211)
+}

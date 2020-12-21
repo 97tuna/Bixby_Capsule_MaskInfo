@@ -1,0 +1,29 @@
+train (t-79020t3m1ji13soncdmz2g66k) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 백현동)[v:Address]에서 마스크 어디서 사야 돼?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584091008556)
+}
+train (t-7cz9ng7gzjtq2ebuqdmvcdj97) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 쓰고 싶어")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088718264)
+}
+train (t-7eq533tetuo355tpswrttztjn) {
+  utterance ("[g:SearchAddress] (경기도 수원시 권선구)[v:Address]")
+  last-modified (1584096383743)
+}
+train (t-7o0hjsar3y0nplbg387502ki9) {
+  utterance ("[g:SearchAddress] (대구광역시 달성군)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934940242)
+}
+train (t-7t9mhx889ntzhakpxion0rdlb) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 범물동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936103588)
+}
+train (t-7y3zqksoscq3s3i0rljdnrh7n) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 어디에서 사지")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094660346)
+}

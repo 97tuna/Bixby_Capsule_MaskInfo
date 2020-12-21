@@ -1,0 +1,26 @@
+capsule-info{
+  search-keywords{
+    keyword (마스크)
+    keyword (약국)
+    keyword (우체국)
+    keyword (농협)
+    keyword (코로나)
+    keyword (코로나19)
+  }
+  display-name (마스크 사자)
+  developer-name (BixbyCrew)
+  icon-asset (/images/icon.png)
+  description ("︎︎▶︎ 위치 및 주소기반 마스크 판매점 및 개수 조회 캡슐 ︎︎◀︎ \n\n ○ 마스크 재고에 따라서 충분, 보통, 적음으로 표시하게 됩니다. \n\n ○ 빅스비로 발화할때는 정확한 시,군,구 지역명을 말씀해 주셔야 합니다 \n\n ex) '서울특별시 강남구' or '서울특별시 강남구 논현동'('서울특별시' 와 같이 '시'단위만 입력하는 것은 불가능합니다. 세종특별자치시 제외) \n\n ○ 마스크 정보는 5분(최대 10분) 단위로 갱신됩니다.\n\n ◎ 어려운 환경에서도 공헌해 주시는 약사님, 우체국 종사자분, 하나로 마트 분들께도 감사와 응원 드립니다 ◎")
+  website-url ()
+  privacy-policy-url ()
+  dispatch-name (마스크 사자)
+
+  requested-permissions {
+    permission (device-location-access) {
+      justification (Your location will be used to find)
+    }
+      permission (self:profile) {
+      justification (Profile)
+    }
+  }
+}

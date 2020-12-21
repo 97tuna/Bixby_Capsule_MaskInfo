@@ -1,0 +1,18 @@
+structure (search) {
+  description (__DESCRIPTION__)
+  
+  property (address){
+    type(Address)
+    min (Optional) max (One)
+  }
+
+  property (count){
+    type (count)
+    min (Optional) max (One)
+  }
+
+  property (data){
+    type (data)
+    min (Optional) max (Many)
+  }
+}

@@ -1,0 +1,20 @@
+train (t-44zccovt6tk79595x9csb8pua) {
+  utterance ("[g:SearchAddress] (강원도 양양군)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863149969)
+}
+train (t-4e3579apl1xbnsxljuuntvnnw) {
+  utterance ("[g:SearchAddress] (부산광역시 연제구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863294349)
+}
+train (t-4n2ryd7t7k3u9nbnue61e0e0u) {
+  utterance ("[g:SearchAddress] (서울특별시 성북구)[v:Address]에 마스크 구하고 싶은데")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093945951)
+}
+train (t-4s4wg3sqe1fwvexbgtkpzzu1k) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 범어동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936063708)
+}

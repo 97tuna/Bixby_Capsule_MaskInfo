@@ -1,0 +1,20 @@
+train (t-p1r80llydmiy4kx4s2m5bxzg1) {
+  utterance ("[g:SearchAddress] (서울특별시 송파구)[v:Address]에는 있어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093622998)
+}
+train (t-ph9ak174il5bnkkym4d91v3fe) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 중동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583935870091)
+}
+train (t-pjyt9jhoo2o57tfpixr2dgpa7) {
+  utterance ("[g:SearchAddress] (서울특별시 양천구 목동)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583929277404)
+}
+train (t-pwm2oq6db6yjfu2zvy683zu1q) {
+  utterance ("[g:SearchAddress] (경상북도 청도군 화양읍)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583937172862)
+}

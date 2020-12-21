@@ -1,0 +1,5 @@
+train (t-vi0fb8i4iy197enxdhp850l2z) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 의창구)[v:Address]에서 마스크 재고 있니")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584425148000)
+}

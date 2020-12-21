@@ -1,0 +1,40 @@
+train (t-d04aasgm66fs9efx0pn8yqpy5) {
+  utterance ("[g:SearchAddress] (서울특별시 서대문구)[v:Address]에 있네")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093483703)
+}
+train (t-d0xm1z7tcrcuyzpes0aknim0v) {
+  utterance ("[g:SearchNear] 주변 (마스크)[v:Mask] 구해")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1584084363057)
+}
+train (t-dfe5ayxkgf6a3wvt7jbabcvrg) {
+  utterance ("[g:SearchAddress] (경기도 수원시 영통구 매탄동)[v:Address]에서 마스크 살래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583930073592)
+}
+train (t-dip3bjw3r07ujwcmnkzefd052) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 어디 있누")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088579620)
+}
+train (t-diwpzetuxghfw3jxc31jyak39) {
+  utterance ("[g:SearchAddress] (대전광역시 유성구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863236759)
+}
+train (t-do5a6nmt9mmk2jlpslnj9usdj) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 어디에서 사지")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088792632)
+}
+train (t-drw7p7oag7m1viily5uxqeclu) {
+  utterance ("[g:SearchAddress] (대전광역시 동구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934373602)
+}
+train (t-dt36ks8qfmz8ln12s134iebgt) {
+  utterance ("[g:SearchAddress] (세종특별자치시)[v:Address]에서는 재고 있어?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094183334)
+}

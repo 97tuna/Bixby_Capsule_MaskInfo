@@ -1,0 +1,17 @@
+action (SearchBirth) {
+  description (생년월일 기반 마스크 구매가능요일 정보 조회)
+  type(Search)
+  collect {
+    input (self) {
+      type (self.Self)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: self.GetImaginarySelf // 사용자 더미 데이터를 가져오는 함수, 테스트시 사용
+          //goal: self.GetSelf // 실제 마켓플레이스 배포시에 사용
+        }
+      }
+    }
+  }
+  output (search)
+}

@@ -1,0 +1,45 @@
+train (t-90vmx09btrh3dw4lpyvi59mn4) {
+  utterance ("[g:SearchAddress] (대전광역시 유성구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934411466)
+}
+train (t-98ao61ukdqsk1vhcxetjw7sux) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 어디서 살 수 있어")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094760839)
+}
+train (t-99461sp11wwep7ow3drmwtult) {
+  utterance ("[g:SearchAddress] (서울특별시 용산구)[v:Address]에서 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092949176)
+}
+train (t-9bd6csfvxozwx6v2avdzeit3a) {
+  utterance ("[g:SearchAddress] (경상북도 경산시 중방동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584424787762)
+}
+train (t-9gcmetqaxmoj8u3ypzf7tj16l) {
+  utterance ("[g:SearchAddress] (경기도 성남시 중원구)[v:Address]에서 구매하려면 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584089788333)
+}
+train (t-9jjyho6zbqv36z2r0e5qwmtlj) {
+  utterance ("[g:SearchAddress] (세종특별자치시)[v:Address]에 마스크 너무 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094259655)
+}
+train (t-9veas68rjv7vqxq9998vfukzj) {
+  utterance ("[g:SearchAddress] (경상북도 청도군)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936754516)
+}
+train (t-9zjrwqufalf4c16qxc9t7udt2) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 이매동)[v:Address] 어디서 사냐")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584089972565)
+}
+train (t-9ztlpivdim05rcfdm9qk14eoc) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near] (마스크)[v:Mask] 어디있냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088573344)
+}

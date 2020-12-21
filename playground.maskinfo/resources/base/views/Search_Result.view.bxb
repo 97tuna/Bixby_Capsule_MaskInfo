@@ -1,0 +1,36 @@
+result-view {
+	match {
+		search (result) {
+			min (Required) max (One)
+		}
+	}
+	
+	message {
+		if (result.count == '0') {
+			template ("도, 시, 군을 정확히 말씀해주세요")
+		}
+		else-if (result.count == '-1') {
+			template ("주변에 마스크 판매점이 없네요")
+		}
+		else-if (result.count == '-2') {
+			template ("주변에 마스크 재고가 없네요")
+		}
+		else-if (result.count == '-3') {
+			template ("서버 업데이트 중입니다 :D")
+		}
+		else-if(empty(result.address)) {
+			template ("사용자 주변 마스크를 보유하고 있는 지점입니다")
+		} 
+		else {
+			template ("#{value(result.address)}의 현재 마스크 보유 지점입니다")
+		}
+	}
+
+	render {
+		layout-macro (search-Summary) {
+			param (search) {
+				expression(result)
+			}
+		}
+	}
+}

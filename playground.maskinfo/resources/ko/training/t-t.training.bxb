@@ -1,0 +1,10 @@
+train (t-t5th6to77gh4n1kwsl6qo1gxy) {
+  utterance ("[g:SearchAddress] (서울특별시 관악구)[v:Address]에서는 살 수 없니")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094126638)
+}
+train (t-tvoslw5t2yykoqwjlrcyqkcio) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에 (마스크)[v:Mask] 없냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088976178)
+}
