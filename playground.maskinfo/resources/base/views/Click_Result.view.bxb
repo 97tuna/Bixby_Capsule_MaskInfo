@@ -1,0 +1,17 @@
+result-view {
+	match {
+		PlaceInfo (result) {
+			min (Required) max (One)
+		}
+	}
+	message {
+		template ("#{value(result.name)}의 정보입니다")
+	}
+	render {
+		layout-macro (Click-Summary) {
+			param (PlaceInfo) {
+				expression(result)
+			}
+		}
+	}
+}

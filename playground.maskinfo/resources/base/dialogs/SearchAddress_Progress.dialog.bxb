@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: SearchAddress
+  template("해당 마스크 판매점 및 개수를 조회하고 있습니다 :D")
+}

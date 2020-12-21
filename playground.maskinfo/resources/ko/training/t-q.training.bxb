@@ -1,0 +1,20 @@
+train (t-q7i8xli95vyti48fml97hrjo8) {
+  utterance ("[g:SearchAddress] (세종특별자치시)[v:Address]에 있나")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094288640)
+}
+train (t-qd8cr5fhd7ii8febef31aki71) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 어디서 사냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088950175)
+}
+train (t-qqsuxzyzd07suslw0kngjbc9z) {
+  utterance ("[g:SearchAddress] (부산광역시 남구 용호동)[v:Address]  마스크 어디서 살 수 있어?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090773508)
+}
+train (t-qvlrpc3wejlsvnsnm9f8dkzb0) {
+  utterance ("[g:SearchAddress] (서울특별시 양천구)[v:Address]에 있어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093362310)
+}

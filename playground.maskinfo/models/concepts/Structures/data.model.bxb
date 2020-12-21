@@ -1,0 +1,57 @@
+structure (data) {
+  description (__DESCRIPTION__)
+  
+  property (addr){
+    type (addr)
+    min (Optional) max (One)
+  }
+
+  property (code){
+    type (code)
+    min (Optional) max (One)    
+  }
+
+  property (created_at){
+    type (created_at)
+    min (Optional) max (One)    
+  }
+
+  property (lat){
+    type (lat)
+    min (Optional) max (One)    
+  }
+
+  property (lng){
+    type (lng)
+    min (Optional) max (One)    
+  }
+
+  property (map){
+    type (map)
+    min (Optional) max (One)    
+  }
+
+  property (name){
+    type (name)
+    min (Optional) max (One)    
+  }
+
+  property (remain_stat){
+    type (remain_stat)
+    min (Optional) max (One)    
+  }
+
+  property (stock_at){
+    type (stock_at)
+    min (Optional) max (One)    
+  }
+
+  property (type){
+    type (type)
+    min (Optional) max (One)    
+  }
+  property (distance){
+    type (distance)
+    min (Optional) max (One)    
+  }
+}

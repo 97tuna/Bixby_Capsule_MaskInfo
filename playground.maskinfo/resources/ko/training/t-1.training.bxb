@@ -1,0 +1,40 @@
+train (t-10jotwmicpquwsuogeecjl3on) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에 (마스크)[v:Mask] 없누")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584089083215)
+}
+train (t-148xnooiini9zs9cuvdln2g7f) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 구할까 말까")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584425208358)
+}
+train (t-1bxsuy9is9dvy5g9hv7lpu5lo) {
+  utterance ("[g:SearchAddress] (경기도 시흥시 매화동)[v:Address]에서 마스크 구할래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583930505992)
+}
+train (t-1e8ooxinuiaf2xs8kmwhtz7j9) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 급해")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584087575578)
+}
+train (t-1kqt1l03t0599gkmwhjs8ffv2) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 살랭")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088492041)
+}
+train (t-1qxw1bsab558b0ydyyclufs1j) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 구매할거야")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088493266)
+}
+train (t-1tvc0rs0r9v8xpgy0361641te) {
+  utterance ("[g:SearchAddress] (서울특별시 도봉구)[v:Address]에서는 마스크 구매 가능?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094050942)
+}
+train (t-1u74zxkw2eg7d9fn3uqwm0bw9) {
+  utterance ("[g:SearchAddress] (경상북도 경산시)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936309236)
+}

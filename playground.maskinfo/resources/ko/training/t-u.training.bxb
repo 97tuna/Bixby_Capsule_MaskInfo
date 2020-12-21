@@ -1,0 +1,30 @@
+train (t-u2g0vuagxfp1mp8epet9j0zpq) {
+  utterance ("[g:SearchAddress] (대구광역시 서구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934874355)
+}
+train (t-u4ky5pjlqys0gw488bdq7rkru) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 어디서 사야돼")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088974551)
+}
+train (t-u7c0sqn5jkyngnv6w6z2aweti) {
+  utterance ("[g:SearchAddress] (서울특별시 중구)[v:Address]에서 마스크 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092905465)
+}
+train (t-uaikbgpadje1z7cogwm33s8y7) {
+  utterance ("[g:SearchAddress] (충청남도 논산시)[v:Address]에 마스크 있을까 없을까")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092681920)
+}
+train (t-uppdwmgkug0jcp60myzf96ohu) {
+  utterance ("[g:SearchAddress] (대구광역시 남구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934841530)
+}
+train (t-uy0ucr93sq014yod6axponv56) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 사고 싶어")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094588926)
+}

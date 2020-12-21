@@ -1,0 +1,15 @@
+train (t-6kuvhaat337fdeqxa5jj2z8wc) {
+  utterance ("[g:SearchAddress] (경상북도 청도군 운문면)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583937367733)
+}
+train (t-6vedgh7gwojlt85ycqd5oui3f) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 사장")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088709584)
+}
+train (t-6xb4a43xjubo4s2x8u6mnim59) {
+  utterance ("[g:SearchAddress] (서울특별시 노원구)[v:Address]에서 구할래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093765064)
+}

@@ -1,0 +1,55 @@
+train (t-m01dgchujf5pz2ymsdswgzipz) {
+  utterance ("[g:SearchAddress] (경상북도 봉화군 석포면)[v:Address]에서 마스크 구매하려면 어디에서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584091573587)
+}
+train (t-m2kmuqsstkbp1xb1mupl2lbvj) {
+  utterance ("[g:SearchAddress] (세종특별자치시)[v:Address]에서 마스크 구매할 거야")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094223950)
+}
+train (t-mci9hl7tq11prgz7r0uzzjf1x) {
+  utterance ("[g:SearchAddress] (강원도 원주시)[v:Address]에 마스크 구매할래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092299121)
+}
+train (t-md0gpd6mwcoo9e60span30b5f) {
+  utterance ("[g:SearchAddress] (경상남도 창녕군)[v:Address]에 마스크 있냐")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092066025)
+}
+train (t-md0y39i6121a7l20lk5mif5my) {
+  utterance ("[g:SearchAddress] (서울특별시 강남구 대치동)[v:Address]에서 마스크 구할래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583929425893)
+}
+train (t-mmqnh7ptpjau3oskiuy6oe48s) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 운중동)[v:Address]에서 마스크 살 수 있어?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090950715)
+}
+train (t-mrhfs0zgxymzd92xtptz5ebz0) {
+  utterance ("[g:SearchAddress] (경상남도 창녕군 계성면)[v:Address]에 마스크 구매하고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092165873)
+}
+train (t-mtsmkhglcro870k3jc10t3het) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 어디서 사야돼")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088911328)
+}
+train (t-mu1rrrfj859wo7n8uz6krj7hu) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 구미동)[v:Address]에서 마스크 구매하려면 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584091203155)
+}
+train (t-mwedlt88eb8zdonlk5lmahbju) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 판매점 보여줘")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088910048)
+}
+train (t-mx12qnfg4i2wyxdy18qmruyby) {
+  utterance ("[g:SearchAddress] (충청남도 당진시)[v:Address]에 마스크 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092760218)
+}

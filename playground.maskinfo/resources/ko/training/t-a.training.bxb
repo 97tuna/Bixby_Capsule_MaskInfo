@@ -1,0 +1,29 @@
+train (t-a2j54lenojne9t4xw1ilyyigs) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 의창구)[v:Address]")
+  last-modified (1583863687870)
+}
+train (t-aban9ea665lu6irzel2on6oas) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 구매하려면 어디서 사")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088576242)
+}
+train (t-aodnemet71lqku8p2raq50khh) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에 (마스크)[v:Mask] 구매 어디서 가능")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088762256)
+}
+train (t-aqoucrirzurwxuwikex1xmr4q) {
+  utterance ("[g:SearchAddress] (경기도 부천시)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583930365334)
+}
+train (t-as3iy8an59w3hzv46rao7uszs) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 판교동)[v:Address] 마스크 구매하려면 어디서 사")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090524340)
+}
+train (t-aslhfbkbxg7ctnt2o3u2a5mto) {
+  utterance ("[g:SearchAddress] (서울특별시 마포구)[v:Address]에서 구하고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093705927)
+}

@@ -1,0 +1,20 @@
+train (t-c2vno1lbez3we8lunu4n03r69) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 구매하려면 어디서 사")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088776776)
+}
+train (t-ch74b9b7d4r30xmgu1q15me2f) {
+  utterance ("[g:SearchAddress] (경상북도 봉화군)[v:Address]에서 마스크 구매할 거야")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584091471827)
+}
+train (t-cno39xjk2v8o13x837k929i61) {
+  utterance ("[g:SearchAddress] (서울특별시 동작구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863126225)
+}
+train (t-cotuol1ydqc665suef9m62jul) {
+  utterance ("[g:SearchAddress] (대구광역시 북구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934736404)
+}

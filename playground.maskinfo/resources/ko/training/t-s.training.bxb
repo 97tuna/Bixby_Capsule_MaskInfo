@@ -1,0 +1,10 @@
+train (t-sjer2mhqdtswiac0j4aqd2c66) {
+  utterance ("[g:SearchAddress] (대구광역시 동구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934697851)
+}
+train (t-sobqxteehm7x23eqm1h3zaqc7) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에 (마스크)[v:Mask] 어디서 구매할 수 있니")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088977104)
+}

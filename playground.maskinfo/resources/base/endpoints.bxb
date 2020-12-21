@@ -1,0 +1,36 @@
+endpoints {
+	action-endpoints {
+		// Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+		action-endpoint (SearchAddress) {
+			accepted-inputs (Address)
+			local-endpoint ("SearchAddress/SearchAddress.js")
+		}
+		action-endpoint (SearchNear) {
+			accepted-inputs (location, Mask, Near)
+			local-endpoint ("SearchNear/SearchNear.js")
+		}
+  	action-endpoint (SearchBirth) {
+			accepted-inputs (self)
+			local-endpoint ("SearchBirth/SearchBirth.js")
+		}
+  	action-endpoint (GetPlaceInfo) {
+			accepted-inputs (data, self)
+			local-endpoint ("GetPlaceInfo/GetPlaceInfo.js")
+		}
+		action-endpoint (OpenKakaoMap) {
+			accepted-inputs (map)
+			local-endpoint ("OpenKakaoMap/OpenKakaoMap.js") //지도 클릭시 브라우져 띄우기
+		}
+		action-endpoint (OpenPhone) {
+			accepted-inputs (phone)
+			local-endpoint ("OpenPhone/OpenPhone.js") //전화 앱
+		}
+		
+		// action-endpoint (__ACTION_NAME__) {
+		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+		//   remote-endpoint (__ENDPOINT_URL__) {
+		//     method (__HTTP_METHOD_USED__)
+		//   }
+		// }
+	}
+}

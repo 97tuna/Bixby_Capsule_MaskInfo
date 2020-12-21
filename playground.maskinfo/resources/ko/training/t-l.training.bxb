@@ -1,0 +1,39 @@
+train (t-l4br13e0ca3hwmwvxcv4txz4l) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 두산동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936057364)
+}
+train (t-l4dd6x4wzcavwltrvrj28vdna) {
+  utterance ("[g:SearchAddress] (서울특별시 구로구)[v:Address]에 없어?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584093812862)
+}
+train (t-laopy79yonm43d02c3w30gted) {
+  utterance ("[g:SearchAddress] (충청남도 보령시)[v:Address]에 마스크 있을까")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092549921)
+}
+train (t-lee1om8c6vb8o2rwrb7sioumw) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 성산구)[v:Address]에서 마스크 어디에 있어")
+  last-modified (1584533354681)
+}
+train (t-ljkho4l57csdit1hrbfr8dire) {
+  utterance ("[g:SearchAddress] (충청북도 청주시 서원구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863176711)
+}
+train (t-ljts0assjva69x6w449q9yt9k) {
+  utterance ("[g:SearchAddress] (서울특별시 강남구 삼성동)[v:Address]에서 마스크 구할래")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583929594745)
+}
+train (t-lmqq48n0j9kfwpkh01a3nbyjx) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 황금동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583935671764)
+}
+train (t-lzb82f1q8vps7ydm8p4kneno6) {
+  utterance ("[g:SearchAddress] (경기도 시흥시 매화동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583930551780)
+}

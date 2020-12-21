@@ -1,0 +1,217 @@
+layout-macro-def (Click-Summary) {
+	params {
+		param (PlaceInfo) {
+			type (PlaceInfo)
+			min (Required)
+		}
+	}
+	content {
+		section {
+			content {
+				map-card {
+					zoom (17)
+					title-area {
+						slot1 {
+							text {
+								value ("")
+								style (Title_L)
+							}
+						}
+					}
+					markers {
+						marker {
+							geo (PlaceInfo.point)
+							icon ("/images/map_marker/green-map-marker.png")
+							width (24) //3 4  24 32
+							height (32)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+					on-click {
+						intent {
+							goal: OpenKakaoMap
+							value: $expr(PlaceInfo.map)
+						}
+					}
+				}
+				hbox {
+					content {
+						vbox {
+							valign (Middle)
+							content {
+								single-line {
+									if (PlaceInfo.type == 01) {
+										image (/images/pharmacy.png){
+											style (Title_M)
+										}
+									}
+									else-if (PlaceInfo.type == 02) {
+										image (/images/post.png){
+											style (Title_M)
+										}
+									}
+									else-if (PlaceInfo.type == 03) {
+										image (/images/nh.png){
+											style (Title_M)
+										}
+									}
+									spacer
+									text ("[#{value(PlaceInfo.name)}]") {
+										style (Title_S)
+									}
+								}
+							}
+						}
+						vbox {
+							halign (End)
+							valign (Middle)
+							content {
+								single-line {
+									if (PlaceInfo.remain_stat == 'plenty') {
+										image (/images/plenty.png){
+											style (Title_XS)
+										}
+									}
+									else-if (PlaceInfo.remain_stat == 'some') {
+										image (/images/some.png){
+											style (Title_XS)
+										}
+									}
+									else-if (PlaceInfo.remain_stat == 'few') {
+										image (/images/few.png){
+											style (Title_XS)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				hbox {
+					content {
+						vbox {
+							halign (Start)
+							content {
+								text ("갱신시각 : #{value(PlaceInfo.created_at)}") {
+									style (Detail_M_Soft)
+								}
+							}
+						}
+						vbox {
+							halign (End)
+							content {
+								if (PlaceInfo.remain_stat == 'plenty') {
+									text {
+										color (Green)
+										style (Detail_M)
+										value {
+											template ("100개 이상")
+										}
+									}
+								}
+								else-if (PlaceInfo.remain_stat == 'some') {
+									text {
+										color (Amber)
+										style (Detail_M)
+										value {
+											template ("30 ~ 99개")
+										}
+									}
+								}
+								else-if (PlaceInfo.remain_stat == 'few') {
+									text {
+										color (Red)
+										style (Detail_M)
+										value {
+											template ("29개 이하")
+										}
+									}
+								}
+							}
+						}
+					}
+				}divider
+				input-cell {
+					label {
+						template ("주소")
+					}
+					value {
+						template ("#{value(PlaceInfo.addr)}")
+					}
+					on-click {
+						intent {
+							goal: OpenKakaoMap
+							value: $expr(PlaceInfo.map)
+						}
+					}
+				}
+				if(PlaceInfo.phone != '정보없음') {
+					input-cell {
+						label {
+							template ("전화번호")
+						}
+						value {
+							template ("#{value(PlaceInfo.phone)}")
+						}
+						on-click {
+							intent {
+								goal: OpenPhone
+								value: $expr(PlaceInfo.phone)
+							}
+						}
+					}
+				}
+				input-cell {
+					label {
+						template ("입고시각")
+					}
+					value {
+						template ("#{value(PlaceInfo.stock_at)}")
+					}
+				}
+				if(PlaceInfo.opentime != '정보없음') {
+					split-input-cell {
+						left {
+							input-cell {
+								label {
+									template ("오픈시각")
+								}
+								value {
+									template ("#{value(PlaceInfo.opentime)}")
+								}
+							}
+						}
+						right {
+							input-cell {
+								label {
+									template ("닫는시각")
+								}
+								value {
+									template ("#{value(PlaceInfo.closedtime)}")
+								}
+							}
+						}
+					}
+				}
+				input-cell {
+					label {
+						template ("#{value(PlaceInfo.buyday)}")
+					}
+					value {
+						template ("#{value(PlaceInfo.buy)}")
+					}
+				}
+				attribution-link {
+					label {
+						template ("식약처 공적 마스크 구입 안내")
+					}
+					url {
+						template ("http://blog.naver.com/kfdazzang/221839489769")
+					}
+				}
+			}
+		}
+	}
+}

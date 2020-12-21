@@ -1,0 +1,11 @@
+action (SearchAddress) {
+  description (주소 기반 마스크 정보 조회)
+  type(Search)
+  collect {
+		input (Address) {
+			min (Optional) max (One)
+			type (Address)
+		}
+  }
+  output (search)
+}

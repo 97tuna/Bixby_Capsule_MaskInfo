@@ -1,0 +1,25 @@
+train (t-bc2rkvszkdl220jaj55bhz6r5) {
+  utterance ("[g:SearchAddress] (경기도 성남시 수정구)[v:Address] 어디서 사야 돼?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584089916773)
+}
+train (t-be19sw1pu6ua58fvpctewcsb8) {
+  utterance ("[g:SearchNear] 사용자 (주변)[v:Near] (마스크)[v:Mask] 구매하려면 어디서 사")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088673374)
+}
+train (t-beo5dqstudkmvd588x6jm48xk) {
+  utterance ("[g:SearchAddress] (대전광역시 대덕구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583934273226)
+}
+train (t-bjkfmn8459q6lstk1dtc7ndtb) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 어디에 있을까나")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584425328648)
+}
+train (t-bn29w8dlvkvkvz4jjp9fi29ow) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 어디서 사냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088577990)
+}
