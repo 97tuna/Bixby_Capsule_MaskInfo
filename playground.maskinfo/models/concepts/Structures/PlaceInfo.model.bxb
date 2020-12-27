@@ -1,0 +1,28 @@
+structure (PlaceInfo) {
+  description (2번쩨 상세 페이지)
+  extends (data)
+  property (phone) {
+    type (phone)
+    min (Optional) max (One)
+  }
+  property (point) {
+    type (geo.GeoPoint)
+    min (Optional) max (One)
+  }
+  property (opentime){
+    type(opentime)
+    min (Optional) max (Many)
+  }
+  property (closedtime){
+    type(closedtime)
+    min (Optional) max (Many)
+  }
+  property (buy){
+    type(buy)
+    min (Optional) max (One)
+  }
+  property (buyday){
+    type(buyday)
+    min (Optional) max (One)
+  }
+}

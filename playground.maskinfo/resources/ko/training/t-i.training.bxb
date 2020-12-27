@@ -1,0 +1,20 @@
+train (t-i44igg9tm2fqshz4dv1dzrzbj) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 정자동)[v:Address] 마스크 어디에서 사지")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090604108)
+}
+train (t-i80z60u4q8wqd2j6ivg2e299v) {
+  utterance ("[g:SearchAddress] (울산광역시 남구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863423960)
+}
+train (t-id9oxk7jzgrm21k9biiyvmi8n) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 어디서 사냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088629912)
+}
+train (t-ijmsl979ajp36l8z8rhd23rz1) {
+  utterance ("[g:SearchAddress] (경상북도 청도군 각남면)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583937268158)
+}

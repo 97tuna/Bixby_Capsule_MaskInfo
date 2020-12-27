@@ -1,0 +1,45 @@
+capsule {
+	id (playground.maskinfo)
+	version (0.2.7)
+	format (3)
+	targets {
+		target (bixby-mobile-ko-KR)
+		target (bixby-mobile-en-US) {enabled (false)}
+	}
+	
+	capsule-imports {
+		import (viv.core){ as (core)}
+		import (viv.time) { as (time) version (3.3.26)}
+		import (viv.geo) { as (geo) version (9.27.9)}
+    import (viv.self) {
+      as (self)
+      version (4.0.20)
+    }
+	}
+	
+	permissions {
+    device-location-access
+    library-permission (self:profile)
+  }
+	
+	runtime-version (8) {
+	}
+	
+	store-countries {
+		only {
+			allow (KR)
+		}
+	}
+	store-sections {
+		section (HealthAndFitness)
+		section (Local) {
+			visibility-constraints {
+				country-constraints {
+					allowed-list {
+						allow (KR)
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+train (t-k7eggr422y4sr23oyosfdyv1y) {
+  utterance ("[g:SearchAddress] (서울특별시 양천구 목동)[v:Address]에서 마스크 어디에 있어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584424435501)
+}
+train (t-kcvjkkripqeuff9v5qxfzcx3u) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 마산합포구)[v:Address]에서 마스크 어디에 있냐")
+  last-modified (1584533354061)
+}
+train (t-km1wam0o0009kgmvq7b01v9h0) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 어디 없나")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088880929)
+}
+train (t-kv2dqhy57u1a4xzefqk1048fy) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 재고 알려줘라")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088877344)
+}

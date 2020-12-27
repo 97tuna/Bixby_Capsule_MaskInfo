@@ -1,0 +1,25 @@
+train (t-h34bihaa5js6vh6pb3dkn8z2k) {
+  utterance ("[g:SearchAddress] (서울특별시 강북구)[v:Address]에서 마스크 어디서 구매 가능해")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584094001631)
+}
+train (t-hflzanpipc2gggh8jibtu5suz) {
+  utterance ("[g:SearchAddress] (경기도 부천시)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583849528374)
+}
+train (t-hlu496pkkou4f0uveywz8msfx) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 사장")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094832559)
+}
+train (t-hrlm3cvw68lqszdpvoerj8wtn) {
+  utterance ("[g:SearchAddress] (경상북도 청도군 청도읍)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936993029)
+}
+train (t-hvqomb3ptwqyk77m892b6g3ic) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 재고 있누")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094635061)
+}

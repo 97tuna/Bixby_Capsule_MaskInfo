@@ -1,0 +1,3 @@
+text (addr) {
+  description (__DESCRIPTION__)
+}

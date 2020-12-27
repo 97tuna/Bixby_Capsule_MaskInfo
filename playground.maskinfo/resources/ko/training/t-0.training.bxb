@@ -1,0 +1,40 @@
+train (t-04fau35nrw1bqx8zf4ugqumur) {
+  utterance ("[g:SearchAddress] (울산광역시 중구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584424574005)
+}
+train (t-0bl9iucp2e5iwmzuw2pt36i0h) {
+  utterance ("[g:SearchAddress] (강원도 양구군)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584096383456)
+}
+train (t-0c0u7ec3pa0rnklonxiavzvxr) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 사자")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584095345027)
+}
+train (t-0kk2sk1bog4s8ykt51e329rsb) {
+  utterance ("[g:SearchAddress] (경상남도 창원시)[v:Address]에서 마스크 어디에 있어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584091771466)
+}
+train (t-0qsm7i0exqql2cgw80v1li59v) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에서 (마스크)[v:Mask] 어디서 사냐")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584094634014)
+}
+train (t-0suw830gkpdlmvocfy0gg4mw4) {
+  utterance ("[g:SearchAddress] (충청남도 천안시 동남구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863218280)
+}
+train (t-0t8dogof6fzc10z4qw1dww0fw) {
+  utterance ("[g:SearchAddress] (서울특별시 양천구 신정동)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583929204802)
+}
+train (t-0zy8ubnxyi99tv0mjrbuc57ni) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 진해구)[v:Address]에서 마스크 어디에 있어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584425079873)
+}

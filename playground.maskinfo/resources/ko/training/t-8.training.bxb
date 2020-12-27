@@ -1,0 +1,29 @@
+train (t-8fxvz2wpbs4lx8apkxxe17ho2) {
+  utterance ("[g:SearchAddress] (경상북도 경산시 하양읍)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584424819457)
+}
+train (t-8npu3riqxnh4mohmzoidlz95f) {
+  utterance ("[g:SearchAddress] (울산광역시 북구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583935244401)
+}
+train (t-8vh8z0rq0feo4euj2crydayn0) {
+  utterance ("[g:SearchAddress] (울산광역시 동구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583935194827)
+}
+train (t-8vijs1g1nv0sg23wmelfrbhdm) {
+  utterance ("[g:SearchAddress] (울산광역시 울주군)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583935359611)
+}
+train (t-8wjesy22ukhzdgmxt1l5dvqkf) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 마산회원구)[v:Address]에서 마스크 구하려구")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584425002446)
+}
+train (t-8yxalg5tcge8nttqq4jn3pwl3) {
+  utterance ("[g:SearchAddress] (경상남도 창원시 진해구)[v:Address]")
+  last-modified (1584096384991)
+}

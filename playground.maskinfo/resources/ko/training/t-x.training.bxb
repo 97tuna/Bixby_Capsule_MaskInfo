@@ -1,0 +1,15 @@
+train (t-xodrc6vsivl29f1flssykpo7j) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 수내동)[v:Address] 마스크 어디서 사야 돼")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090258318)
+}
+train (t-xw6ixurr2lee9obcwr2wdq78j) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 구매 어디서 가능")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584089002312)
+}
+train (t-xyfysb26eyuarhhyjnw5d3id8) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 재고 있는 곳 찾아줘")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584089009648)
+}

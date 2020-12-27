@@ -1,0 +1,115 @@
+layout-macro-def (search-Summary) {
+	params {
+		param (search) {
+			type (search)
+			min (Required)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				for-each (search.data) {
+					as () {
+						index-var (i)
+						compound-card {
+							on-click {
+								intent {
+									goal: GetPlaceInfo
+									value: $expr(search.data[i])
+								}
+							}
+							content {
+								// image-card {
+								// 	image-url ("#{value(search.data[i].name)}")
+								// 	title-area {
+								// 		halign (Start)
+								// 		slot1 {
+								// 			text {
+								// 				value ("[#{value(search.data[i].name)}]")
+								// 			}
+								// 		}
+								// 	}
+								// }
+								hbox {
+									content {
+										vbox {
+											valign (Middle)
+											content {
+												single-line {
+													if (search.data[i].type == 01) {
+														image (/images/pharmacy.png){
+															style (Title_M)
+														}
+													}
+													else-if (search.data[i].type == 02) {
+														image (/images/post.png){
+															style (Title_M)
+														}
+													}
+													else-if (search.data[i].type == 03) {
+														image (/images/nh.png){
+															style (Title_M)
+														}
+													}
+													spacer
+													text ("[#{value(search.data[i].name)}]")
+												}
+											}
+										}
+										vbox {
+											valign (Middle)
+											content {
+												single-line {
+													if (search.data[i].remain_stat == 'plenty') {
+														image (/images/plenty.png){
+															style (Title_XS)
+														}
+													}
+													else-if (search.data[i].remain_stat == 'some') {
+														image (/images/some.png){
+															style (Title_XS)
+														}
+													}
+													else-if (search.data[i].remain_stat == 'few') {
+														image (/images/few.png){
+															style (Title_XS)
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+								hbox {
+									content {
+										vbox {
+											grow(5)
+											halign (Start)
+											content {
+												text ("[#{value(search.data[i].addr)}]") {
+													style (Detail_L)
+												}
+											}
+										}
+										if(!empty(search.data[i].distance)) {
+											vbox {
+												grow(1)
+												halign (End)
+												content {
+													text ("[#{value(search.data[i].distance)}]") {
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

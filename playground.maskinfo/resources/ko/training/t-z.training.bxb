@@ -1,0 +1,20 @@
+train (t-z25p2fr2npxxlehx4wllpoj44) {
+  utterance ("[g:SearchAddress] (충청남도 천안시)[v:Address]에 마스크 있니")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584092497376)
+}
+train (t-zn5y1ye3oz132u1v83mgcxbok) {
+  utterance ("[g:SearchAddress] (경상북도 청도군 풍각면)[v:Address]에서 마스크 사고 싶어")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583937313653)
+}
+train (t-zsjb8hqead6zrfyblz2y2npmj) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863255604)
+}
+train (t-zsx6omvitrokdag9zu739llgb) {
+  utterance ("[g:SearchNear] 내 (주변)[v:Near]에 (마스크)[v:Mask] 구매할 거야")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584089028752)
+}

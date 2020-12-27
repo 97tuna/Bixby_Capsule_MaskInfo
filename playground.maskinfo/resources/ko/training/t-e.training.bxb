@@ -1,0 +1,5 @@
+train (t-e5xnhcdxo3ncgsb08odhbst52) {
+  utterance ("[g:SearchNear] (주변)[v:Near] (마스크)[v:Mask] 어디없나")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584088802240)
+}

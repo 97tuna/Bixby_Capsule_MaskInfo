@@ -1,0 +1,35 @@
+action (GetPlaceInfo) {
+  type (Search)
+  description (2번째 페이지 기관 세부정보)
+  collect {
+    input (data) {
+      type (data)
+      min (Optional) max (One)
+    }
+    computed-input (self){
+			type (self.Self)
+			max (One) min (Optional)
+			compute{
+				intent {
+					goal: self.Self
+					route: self.GetSelf
+          //goal: self.GetImaginarySelf
+				}
+			}
+		}
+    // input (self) {
+    //   type (self.Self)
+    //   min (Optional) max (One)
+    //   default-init{
+    //     intent{
+    //       goal: self.GetImaginarySelf // 사용자 더미 데이터를 가져오는 함수, 테스트시 사용
+    //       // goal: self.GetSelf // 실제 마켓플레이스 배포시에 사용
+    //       // value-set: self.RequiredField {
+    //       //   self.RequiredField (structuredName)
+    //       // }
+    //     }
+    //   }
+    // }
+  }
+  output (PlaceInfo)
+}

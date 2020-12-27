@@ -1,0 +1,10 @@
+train (t-ykniyprjdcuwkjbl2s1tpc3ah) {
+  utterance ("[g:SearchNear] (주변)[v:Near]에 (마스크)[v:Mask] 파는곳 없니?")
+  plan (Y2BhkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gkMUiFQyW8gOSDOJYpH2BDKwSYB3MDIwMTECSAUiDIATARQE=)
+  last-modified (1584089021319)
+}
+train (t-yy5r3yubbjb4cfatb0ciz0c7o) {
+  utterance ("[g:SearchAddress] (대구광역시 수성구 만촌동)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583936133940)
+}

@@ -1,0 +1,27 @@
+action (SearchNear) {
+  description (위치 기반 마스크 정보 조회)
+  type(Search)
+  collect {
+		input (location) {
+			min (Optional) max (One)
+			type (location)
+			default-init{
+				if ($user.currentLocation.$exists){
+					intent {
+						goal: geo.GeoPoint
+						value-set: geo.CurrentLocation { $expr($user.currentLocation) }
+					}
+				}
+			}
+		}
+		input (Mask) {
+			min (Required) max (One)
+			type (Mask)
+		}
+		input (Near) {
+			min (Required) max (One)
+			type (Near)
+		}
+  }
+  output (search)
+}

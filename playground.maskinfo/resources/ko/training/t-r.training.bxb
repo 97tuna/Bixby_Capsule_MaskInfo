@@ -1,0 +1,15 @@
+train (t-rcc66doss09i3aqs3if4chjtm) {
+  utterance ("[g:SearchAddress] (광주광역시 광산구)[v:Address]")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1583863382298)
+}
+train (t-rgmda6rz8tqp2nvxxbbnjga6n) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구)[v:Address] 구매할꺼야")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584089697062)
+}
+train (t-rtinjvviz3x6rk4gq8viavouf) {
+  utterance ("[g:SearchAddress] (경기도 성남시 분당구 서현동)[v:Address] 마스크 어디서 사지?")
+  plan (Y2BmkMzLT0lMrczPz9PLTSzOzsxLy9crTk0sSs5gUMAiFQyWckxJKUotLmaQwqICJsfEwAjEDECSkQEEoHwA)
+  last-modified (1584090142813)
+}
