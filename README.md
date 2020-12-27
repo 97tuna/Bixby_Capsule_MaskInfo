@@ -1,4 +1,4 @@
-# Bixby_Capsule_MaskInfo
+# Bixby Capsule 마스크 사자
 <!-- Made By     : 2_tuna_97 -->
 
 <!-- 빅스비 크루 로고 -->
@@ -32,7 +32,7 @@
 </p>
 
 ## Capsule Structure
----
+
 > Bixby Capsule은 다음과 같이 3가지로 구성되어 있습니다.
 1. javascript <br>
     여기서는 액션에서 받은 정보를 가지고 정보를 실행 또는 처리하는것인데요. API를 사용해서 정보를 받아오거나 이미 저장되어있는 데이터 값을 불러오는 등 다양한 역할을 하게 됩니다.
@@ -65,7 +65,7 @@
 <br>
 
 ## Capsule update시 갱신할 부분
----
+
 ### capsule.bxb
 ```javascript
 capsule {
@@ -112,7 +112,7 @@ capsule {
 }
 ```
 
-> [viv.core 버전 업데이트 명시](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library)
+> [viv.core 버전 업데이트 명시](https://bixbydevelopers.com/dev/docs/dev-guide/developers/library#library-capsule-versions)
 
 <br>
 
@@ -140,7 +140,7 @@ capsule-info{
 ```
 
 ## Usage (대표 발화)
----
+
 * "충청북도 청주시 서원구"
 * "서울 특별시 강남구"
 * "주변 마스크 구매할래"
